@@ -22,7 +22,7 @@ spec:
     spec:
       containers:
       - name: java-app-deploy
-        image: mushrifmulla/java-web-app:$TAG
+        image: mushrifmulla/java-web-app:1
         ports:
         - containerPort: 80
         resources:
